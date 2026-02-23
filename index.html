@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- teste
+    -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS principal -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Título da página -->
+    <title>Portfólio - @professoradeprogramacao</title>
+
+    <!-- Favicon do site -->
+    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+
+    <!-- Fontes Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bitcount:wght@100..900&family=Sora:wght@100..800&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Bibliotecas de ícones -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <!-- CABEÇALHO / NAVEGAÇÃO -->
+    <header>
+      <div class="container nav-wrapper">
+        <h1 class="logo">Jaqueline Pauxis: <span class="realce">Software senior Developer & Programming Instructor</span></h1>
+
+        <!-- Menu mobile com checkbox -->
+        <input type="checkbox" id="menu-toggle" />
+        <label for="menu-toggle" class="menu-icon">&#9776;</label>
+
+        <nav class="navbar">
+          <a href="#sobre">Sobre</a>
+          <a href="#skills">Skills</a>
+          <a href="#Aulas">Aulas</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#github">GitHub</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO - Sessão de boas-vindas com animação de texto -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-img">
+          <img
+            src="assets/imgs/foto-perfil.png"
+            alt="Foto de perfil"
+            class="profile-img"
+          />
+        </div>
+        <div class="hero-text">
+          <h2><span class="typed-text" id="typed"></span></h2>
+          <p>
+           Sou Jaqueline Pauxis, desenvolvedora de software e Bracharel em Jogos Digitais. Com mais de 5 mil aulas ministradas globalmente, utilizo minha base em Ciências Naturais para traduzir conceitos complexos em lógica de programação. Unindo Python, JavaScript e Lua, foco em criar projetos e metodologias onde o código não é apenas uma ferramenta, mas uma história a ser contada.
+          </p>
+          <a href="#projetos" class="btn btn-primary">Ver meus projetos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="section">
+      <div class="container about-text">
+        <h2 class="section-title">Sobre mim</h2>
+        <p class="section-text">
+          +5.000 aulas ministradas para alunos ao redor do mundo
+        </p>
+        <p class="section-text">
+         "Ler um código é como ler uma história: basta interpretá-lo e usar a imaginação."
+        </p>
+        <p class="section-text">
+         Sou Software Developer e Educadora Tecnológica apaixonada por transformar a lógica de programação em algo lúdico e acessível. Com formação em Ciências Naturais pela UFPA e atualmente cursando Jogos Digitais (Descomplica), uno a base pedagógica à expertise técnica para formar novos desenvolvedores.
+        </p>
+        <p class="section-text">
+          Desde 2019, atuo na linha de frente da educação digital, adaptando metodologias de ensino presencial para o ambiente online com foco em gamificação. Tenho sólida experiência como instrutora em EdTechs globais, como BYJU’S FutureSchool e Kodland, lecionando para turmas do Ensino Fundamental ao Médio.
+        </p>
+        <p class="section-text">
+         Minhas especialidades incluem:
+        </p>
+        <p class="section-text">
+         Linguagens e Ferramentas: Python, JavaScript, Minecraft Education Edition e Lua (Roblox Studio).
+        </p>
+        <p class="section-text">
+          Desenvolvimento: Web, Mobile e Criação de Games.
+        </p>
+         <p class="section-text">
+        Metodologia: Ensino personalizado e gamificado para crianças e adolescentes.
+        </p>
+        <p class="section-text">
+        Acredito que a programação é uma ferramenta de expressão criativa. Meu objetivo é capacitar alunos para que eles não apenas consumam tecnologia, mas criem o futuro através dela.
+        </p>
+        
+      </div>
+    </section>
+
+    <!-- HABILIDADES / STACKS (Cards) -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+          <!-- Cada "skill-card" representa uma habilidade com ícone -->
+          <div class="skill-card">
+            <i class="devicon-html5-plain colored"></i>
+            <span>HTML5</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-css3-plain colored"></i>
+            <span>CSS3</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-javascript-plain colored"></i>
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-typescript-plain colored"></i>
+            <span>TypeScript</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-react-original colored"></i>
+            <span>React</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-tailwindcss-plain colored"></i>
+            <span>Tailwind</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-sass-original colored"></i>
+            <span>Sass</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-git-plain colored"></i>
+            <span>Git</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-github-original"></i>
+            <span>GitHub</span>
+          </div>
+          <div class="skill-card">
+            <i class="devicon-figma-plain colored"></i>
+            <span>Figma</span>
+          </div>
+        </div>
+
+        <!-- Alternativa: Habilidades em formato de tags -->
+        <!-- <div class="skills-list-icons">
+          <span class="skill-tag"><i class="devicon-html5-plain colored"></i> HTML</span>
+          <span class="skill-tag"><i class="devicon-css3-plain colored"></i> CSS</span>
+          <span class="skill-tag"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+          <span class="skill-tag"><i class="devicon-typescript-plain colored"></i> TypeScript</span>
+          <span class="skill-tag"><i class="devicon-react-original colored"></i> React</span>
+          <span class="skill-tag"><i class="devicon-tailwindcss-plain colored"></i> Tailwind</span>
+          <span class="skill-tag"><i class="devicon-sass-original colored"></i> Sass</span>
+          <span class="skill-tag"><i class="devicon-git-plain colored"></i> Git</span>
+          <span class="skill-tag"><i class="devicon-github-original"></i> GitHub</span>
+          <span class="skill-tag"><i class="devicon-figma-plain colored"></i> Figma</span>
+        </div> -->
+      </div>
+    </section>
+
+        <!-- AULAS-->
+    <section id="Aulas" class="section">
+      <div class="container about-text">
+        <h2 class="section-title">🚀 Domine a Programação: Do Zero ao "Boss" Final!</h2>
+        <p class="section-text">
+         Aprender a programar não precisa ser difícil. Só precisa ser divertido.
+        </p>
+        <p class="section-text">
+         Você sabia que ler um código é como ler uma história? Eu te ajudo a interpretar essa narrativa e a superar qualquer barreira de aprendizado através de um Método Validado e Gamificado.
+        </p>
+        <p class="section-text">
+        🎮 Como funcionam as minhas aulas?
+        </p>
+        <p class="section-text">
+          Esqueça aulas chatas e repetitivas. Aqui, o aprendizado é uma jornada:
+        </p>
+        <p class="section-text">
+          Desafios por Fases: O conteúdo é dividido em níveis. A cada etapa, um novo desafio a ser superado, exatamente como enfrentar um "Boss" em um jogo.        </p>
+        <p class="section-text">
+          Tecnologias que os Alunos Amam: Utilizamos ferramentas reais e de alto engajamento, como Minecraft Education Edition, Roblox Studio (Lua), P5.js e IDEs profissionais.
+        </p>
+        <p class="section-text">
+          Material 100% Personalizado: Crio materiais exclusivos para a necessidade de cada aluno. Se você tem uma dificuldade específica, nós criamos a solução juntos.
+        </p>
+         <p class="section-text">
+          💎 O que está incluso no meu acompanhamento:
+        </p>
+        <p class="section-text">
+        ✅ Suporte Integral: Acompanhamento via WhatsApp para tirar dúvidas.
+          </p>
+       
+
+         <p class="section-text">
+           ✅ Sala de Aula Virtual: Ambiente organizado para o progresso do aluno.
+        </p>  
+        <p class="section-text">
+          ✅ Empréstimo de Material: Acesso a recursos didáticos de apoio. 
+        </p>       
+          <p class="section-text">
+          ✅ Flexibilidade Total: Horários e valores adaptáveis à sua realidade. 
+        </p>
+          <p class="section-text">
+Vamos interpretar o seu próximo código juntos?        </p>
+         <p class="section-text">
+O próximo nível começa agora. Vem comigo!        </p>
+        
+      </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="section">
+      <div class="container">
+        <h2>Projetos</h2>
+        <div class="projetos-grid">
+          <!-- Cada projeto pode ter link para GitHub e Deploy -->
+          <!-- É só duplicar esse bloco e alterar os dados -->
+          <div class="projeto-card">
+            <img
+              src="assets/imgs/card-project-1.png"
+              alt="Print do projeto 1"
+            />
+            <h3>PasseioGaturno_game_Python</h3>
+            <p>
+              Da sala de aula para o código: Transformando histórias em jogos com Python! 🐱💻
+Quem convive comigo sabe que os gatos fazem parte da minha rotina. No projeto Passeio Gaturno, decidi unir essa paixão pessoal à minha trajetória como educadora tecnológica para criar um simulador de vida felina desenvolvido inteiramente em Python.
+
+Mais do que um jogo, o Passeio Gaturno é um exercício prático de lógica e gestão de recursos. O desafio? Sobreviver à noite, realizar atividades felinas e evitar o IBAMA!
+
+O que este projeto demonstra tecnicamente:
+
+Sistemas de Status e Lógica de Decisão: Implementação de variáveis de controle para Energia, Higiene e Saúde. Cada escolha do usuário impacta diretamente o desfecho do jogo através de estruturas condicionais complexas.
+
+Modularização e Organização: O código foi estruturado em diferentes scripts (Gatos, Interface, Relógio), garantindo manutenibilidade e clareza — conceitos que ensino diariamente em minhas aulas.
+
+Experiência e Gamificação: Aplicação de conceitos lúdicos para criar uma interface textual envolvente, provando que "ler um código é como ler uma história".
+
+Este simulador é o reflexo do que acredito como desenvolvedora e professora: a programação é a ferramenta que transforma nossa imaginação em sistemas funcionais e divertidos.
+
+🐾 Desafio: Consegue sobreviver até a hora de dormir?
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+              <a href="#">Ver Vídeo</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <img
+              src="assets/imgs/card-project-2.png"
+              alt="Print do projeto 2"
+            />
+            <h3>Blog Pessoal</h3>
+            <p>
+              Mockup responsivo criado como prática de estrutura HTML e
+              estilização com CSS.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+              <a href="#">Ver Vídeo</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <img
+              src="assets/imgs/card-project-3.png"
+              alt="Print do projeto 3"
+            />
+            <h3>Loja Online</h3>
+            <p>
+              Wireframe de loja virtual responsiva. Ideal para treinar grid,
+              responsividade e layout.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+              <a href="#">Ver Vídeo</a>
+            </div>
+          </div>
+                    <div class="projeto-card">
+            <img
+              src="assets/imgs/card-project-2.png"
+              alt="Print do projeto 2"
+            />
+            <h3>Blog Pessoal</h3>
+            <p>
+              Mockup responsivo criado como prática de estrutura HTML e
+              estilização com CSS.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+              <a href="#">Ver Vídeo</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <img
+              src="assets/imgs/card-project-3.png"
+              alt="Print do projeto 3"
+            />
+            <h3>Loja Online</h3>
+            <p>
+              Wireframe de loja virtual responsiva. Ideal para treinar grid,
+              responsividade e layout.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+              <a href="#">Ver Vídeo</a>
+            </div>
+          </div>
+                    <div class="projeto-card">
+            <img
+              src="assets/imgs/card-project-2.png"
+              alt="Print do projeto 2"
+            />
+            <h3>Blog Pessoal</h3>
+            <p>
+              Mockup responsivo criado como prática de estrutura HTML e
+              estilização com CSS.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+              <a href="#">Ver Vídeo</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <img
+              src="assets/imgs/card-project-3.png"
+              alt="Print do projeto 3"
+            />
+            <h3>Loja Online</h3>
+            <p>
+              Wireframe de loja virtual responsiva. Ideal para treinar grid,
+              responsividade e layout.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+              <a href="#">Ver Vídeo</a>
+            </div>
+          </div>
+                    <div class="projeto-card">
+            <img
+              src="assets/imgs/card-project-2.png"
+              alt="Print do projeto 2"
+            />
+            <h3>Blog Pessoal</h3>
+            <p>
+              Mockup responsivo criado como prática de estrutura HTML e
+              estilização com CSS.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+              <a href="#">Ver Vídeo</a>
+            </div>
+          </div>
+
+          <div class="projeto-card">
+            <img
+              src="assets/imgs/card-project-3.png"
+              alt="Print do projeto 3"
+            />
+            <h3>Loja Online</h3>
+            <p>
+              Wireframe de loja virtual responsiva. Ideal para treinar grid,
+              responsividade e layout.
+            </p>
+            <div class="btns">
+              <a href="#">Ver projeto</a>
+              <a href="#">Ver código</a>
+              <a href="#">Ver Vídeo</a>
+            </div>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SEÇÃO GITHUB (opcional para quem ainda não tem projetos) -->
+    <!-- <section id="github" class="section">
+      <div class="container">
+        <h2 class="section-title">Meus códigos no GitHub</h2>
+        <p class="section-subtitle">Tô começando minha jornada como dev e já estou praticando bastante! No meu GitHub você encontra exercícios, mini projetos e experiências enquanto aprendo e evoluo.</p>
+        <a href="https://github.com/seuusuario" target="_blank" class="btn btn-primary">
+          <i class="devicon-github-original"></i> Ver meu GitHub
+        </a>
+      </div>
+    </section> -->
+
+    <!-- CONTATO -->
+    <section id="contato" class="section">
+      <div class="container contato-card">
+        <h2>Contato</h2>
+        <p>Me chama no LinkedIn ou manda um e-mail 😊</p>
+        <div class="social-links">
+          <a href="https://wa.me/5591980361195" class="btn-social">
+            <i class="fa-brands fa-whatsapp"></i> Whatsapp
+          </a>
+          <a href="https://www.instagram.com/professoradeprogramacao/" class="btn-social">
+            <i class="fa-brands fa-instagram "></i> Instagram
+          </a>
+          <a href="https://github.com/JaquelinePauxis" class="btn-social">
+            <i class="devicon-github-original"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/jaquelinevpauxis/" class="btn-social">
+            <i class="fab fa-linkedin"></i> LinkedIn
+          </a>
+          <a href="profjaquepauxis@gmail.com" class="btn-social">
+            <i class="fas fa-envelope"></i> E-mail
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+      <p>
+        Template criado por
+        <a href="https://github.com/JaquelinePauxis" target="_blank"
+          >@JaquelinePauxis</a
+        >
+        • Direitos Autorais Reservados 🦋
+      </p>
+    </footer>
+
+    <!-- SCRIPT: Animação Hello World na Hero -->
+    <script>
+      const text = "Imagine. Code. Play.";
+      const typedEl = document.getElementById("typed");
+
+      let i = 0;
+      function digitar() {
+        if (i < text.length) {
+          typedEl.innerHTML += text.charAt(i);
+          i++;
+          setTimeout(digitar, 120);
+        }
+      }
+
+      window.addEventListener("DOMContentLoaded", digitar);
+    </script>
+  </body>
+</html>
