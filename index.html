@@ -231,165 +231,208 @@ O próximo nível começa agora. Vem comigo!        </p>
           <!-- É só duplicar esse bloco e alterar os dados -->
           <div class="projeto-card">
             <img
-              src="assets/imgs/card-project-1.png"
+              src="assets/imgs/passeio.png"
               alt="Print do projeto 1"
             />
-            <h3>PasseioGaturno_game_Python</h3>
+            <h3>Passeio Gaturno-Python</h3>
             <p>
-              Da sala de aula para o código: Transformando histórias em jogos com Python! 🐱💻
-Quem convive comigo sabe que os gatos fazem parte da minha rotina. No projeto Passeio Gaturno, decidi unir essa paixão pessoal à minha trajetória como educadora tecnológica para criar um simulador de vida felina desenvolvido inteiramente em Python.
-
-Mais do que um jogo, o Passeio Gaturno é um exercício prático de lógica e gestão de recursos. O desafio? Sobreviver à noite, realizar atividades felinas e evitar o IBAMA!
-
-O que este projeto demonstra tecnicamente:
-
-Sistemas de Status e Lógica de Decisão: Implementação de variáveis de controle para Energia, Higiene e Saúde. Cada escolha do usuário impacta diretamente o desfecho do jogo através de estruturas condicionais complexas.
-
-Modularização e Organização: O código foi estruturado em diferentes scripts (Gatos, Interface, Relógio), garantindo manutenibilidade e clareza — conceitos que ensino diariamente em minhas aulas.
-
-Experiência e Gamificação: Aplicação de conceitos lúdicos para criar uma interface textual envolvente, provando que "ler um código é como ler uma história".
-
-Este simulador é o reflexo do que acredito como desenvolvedora e professora: a programação é a ferramenta que transforma nossa imaginação em sistemas funcionais e divertidos.
-
+              Passeio Gaturno é um simulador de vida felina desenvolvido em Python que une narrativa e programação. O projeto trabalha lógica, gestão de recursos e tomada de decisão por meio de sistemas de status (Energia, Higiene e Saúde), estruturas condicionais e código modularizado (scripts separados para organização). Além de demonstrar fundamentos técnicos, aplica gamificação para tornar a experiência envolvente e educativa.
 🐾 Desafio: Consegue sobreviver até a hora de dormir?
             </p>
             <div class="btns">
               <a href="#">Ver projeto</a>
-              <a href="#">Ver código</a>
-              <a href="#">Ver Vídeo</a>
+              <a href="https://github.com/JaquelinePauxis/PasseioGaturno_game_Python">Ver código</a>
             </div>
           </div>
 
           <div class="projeto-card">
             <img
-              src="assets/imgs/card-project-2.png"
+              src="assets/imgs/queimada.png"
               alt="Print do projeto 2"
             />
-            <h3>Blog Pessoal</h3>
+            <h3>Queimada No roblox</h3>
             <p>
-              Mockup responsivo criado como prática de estrutura HTML e
-              estilização com CSS.
+              Projeto de game design + programação em Roblox onde o aluno constrói uma “pista de atravessar” com um obstáculo (bola) em movimento contínuo e um objetivo (troféu). Ao tocar no troféu, o jogador ganha ponto, é teleportado ao início e tem a velocidade ajustada, criando uma mecânica simples de “risk/reward” e progressão.
+            O que o código demonstra:
+
+Regras de vitória/derrota e validações por condicionais (ex.: detectar toque na bola e no troféu).
+
+Lógica contínua de gameplay usando loops (movimento constante do obstáculo e aceleração progressiva).
+
+Controle de física/movimento via propriedades (ex.: velocidade/WalkSpeed) e resets.
+
+Noção de arquitetura multiplayer (Script vs LocalScript + RemoteEvent para comunicação cliente-servidor).
+
+Implementação de leaderstats (placar/estado durante a sessão) e economia simples (pontos → acessórios).
+            
             </p>
             <div class="btns">
               <a href="#">Ver projeto</a>
-              <a href="#">Ver código</a>
-              <a href="#">Ver Vídeo</a>
+              <a href="https://github.com/JaquelinePauxis/Queimada-Roblox-Studio-Lua-">Ver código</a>
             </div>
           </div>
 
           <div class="projeto-card">
             <img
-              src="assets/imgs/card-project-3.png"
+              src="assets/imgs/lava.webp"
               alt="Print do projeto 3"
             />
-            <h3>Loja Online</h3>
+            <h3>O Chão é Lava</h3>
             <p>
-              Wireframe de loja virtual responsiva. Ideal para treinar grid,
-              responsividade e layout.
+              Projeto que termina em um jogo multiplayer estilo “The Floor is Lava”: há fases temporizadas, lava que sobe dinamicamente, dano progressivo, contagem regressiva sincronizada, lobby e loop infinito.
+           Arquitetura e engenharia de jogo :
+
+ReplicatedStorage como “núcleo de dados” (ModuleScript GameSettings, TimerData e RemoteEvent para sincronismo).
+
+ServerScriptService gerindo o temporizador e o “GameManager” (loop do jogo e regras globais).
+
+StarterGui com LocalScript que renderiza o timer para o jogador (UI reativa).
+
+Uso de funções reutilizáveis para: contagem regressiva, teleporte, reset da lava e sincronização de GUI.
+           
             </p>
             <div class="btns">
               <a href="#">Ver projeto</a>
-              <a href="#">Ver código</a>
-              <a href="#">Ver Vídeo</a>
+              <a href="https://github.com/JaquelinePauxis/-O-Ch-o-Lava-Roblox-Studio-Lua-/tree/main">Ver código</a>
             </div>
           </div>
                     <div class="projeto-card">
             <img
-              src="assets/imgs/card-project-2.png"
-              alt="Print do projeto 2"
+              src="assets/imgs/banner.png.png"
+              alt="Print do projeto 4"
             />
-            <h3>Blog Pessoal</h3>
+            <h3>Calculadora de poções - (JavaScript)</h3>
             <p>
-              Mockup responsivo criado como prática de estrutura HTML e
-              estilização com CSS.
+             Aplicação web onde o aluno escolhe base, essência, temperatura, potência e aditivos e o sistema calcula tipo/força/risco, com validação (limite de aditivos) e atualização de resultado/log.
+
+Competências técnicas :
+
+Separação em funções pequenas (cálculo, nome, risco, visual) e uso de eventos (click, change, submit) para reagir ao formulário.
+
+Organização de “regras de negócio” (combinações → resultado), uma ponte ótima para pensamento de arquitetura.
+
+Interface orientada a formulário com feedback (“Registro do Caldeirão”) e estados (“Tipo/Força/Risco”).
             </p>
             <div class="btns">
               <a href="#">Ver projeto</a>
-              <a href="#">Ver código</a>
-              <a href="#">Ver Vídeo</a>
+              <a href="https://github.com/JaquelinePauxis/-Calculadora-de-Po-es">Ver código</a>
             </div>
           </div>
 
           <div class="projeto-card">
             <img
-              src="assets/imgs/card-project-3.png"
-              alt="Print do projeto 3"
+              src="assets/imgs/detetive.png"
+              alt="Print do projeto 5"
             />
-            <h3>Loja Online</h3>
+            <h3>O Msterio da Hikaru - Python</h3>
             <p>
-              Wireframe de loja virtual responsiva. Ideal para treinar grid,
-              responsividade e layout.
+              Um RPG em console onde o jogador investiga cômodos, coleta itens/pistas e tenta deduzir o esconderijo da Hikaru. O projeto ensina I/O, condicionais, listas e organização do fluxo narrativo.
+           
+           Um “estado do jogo” em dicionário guarda jogador, inventário, pistas e flag de término (estado = {...}), modelando persistência em memória.
+
+Funções utilitárias claras (limpar, pausar, titulo) e uma função de validação de entrada (escolher_opcao) que força boas práticas de UX no terminal.
+
+Um hub principal com menu (1–7) roteia para cenas; isso ensina decomposição do problema e roteamento de fluxo.
+
+Inventário/pistas são listas com prevenção de duplicidade (if item not in estado["inventario"]) — prática real de controle de estado.
+
+Final baseado em “força de evidência”: conta quantas pistas-chave foram coletadas e só valida a dedução “boa” se houver evidência mínima (acertos >= 2).
             </p>
             <div class="btns">
               <a href="#">Ver projeto</a>
-              <a href="#">Ver código</a>
-              <a href="#">Ver Vídeo</a>
+              <a href="https://github.com/JaquelinePauxis/O-Mist-rio-da-Hikaru">Ver código</a>
             </div>
           </div>
                     <div class="projeto-card">
             <img
-              src="assets/imgs/card-project-2.png"
-              alt="Print do projeto 2"
+              src="assets/imgs/eco.png"
+              alt="Print do projeto 6"
             />
-            <h3>Blog Pessoal</h3>
+            <h3>Simulador de Ecossistema</h3>
             <p>
-              Mockup responsivo criado como prática de estrutura HTML e
-              estilização com CSS.
+              Simulador de Ecossistema — A Missão da Hikaru Cientista (Python)
+
+Simulação em console que modela um ecossistema (plantas/água/herbívoros/predadores + estações e eventos). O foco é variáveis de estado, loop de simulação e regras de causa-efeito — programação aplicada a Ciências/STEAM.
+
+O que aparece no código (base do “motor”):
+
+Interface de console com funções (limpar, titulo, pausar) e entrada robusta (pedir_int, pedir_opcao) — importante para projetos longos e interativos.
+
+Uso de aleatoriedade (import random) para eventos estocásticos (chuva/seca/doença), aproximando simulação de realidade.
+
+O README define claramente o modelo e a intenção: rodar em modo automático ou interativo, observar logs e consequências, e incentivar expansão (novas espécies, exportação de logs etc.).
             </p>
             <div class="btns">
               <a href="#">Ver projeto</a>
-              <a href="#">Ver código</a>
-              <a href="#">Ver Vídeo</a>
+              <a href="https://github.com/JaquelinePauxis/--Simulador-de-Ecossistema">Ver código</a>
             </div>
           </div>
 
           <div class="projeto-card">
             <img
-              src="assets/imgs/card-project-3.png"
-              alt="Print do projeto 3"
+              src="assets/imgs/bannerMEE1.png"
+              alt="Print do projeto 7"
             />
-            <h3>Loja Online</h3>
+            <h3>Parque de Diversões Geométrico — Minecraft Education (MakeCode)</h3>
             <p>
-              Wireframe de loja virtual responsiva. Ideal para treinar grid,
-              responsividade e layout.
+              Mundo .mcworld onde o Agent constrói formas geométricas parametrizadas (escala/altura/raio) usando loops, funções e coordenadas 3D (X,Y,Z). É matemática aplicada em ambiente 3D — com foco em algoritmo espacial.
+
+O que este projeto prova:
+
+Automação de construção com repetição e simetria (loops).
+
+Parametrização (mesmo algoritmo gera estruturas diferentes ao mudar números).
+
+Procedimento de importação multi-plataforma bem documentado (MEE/Bedrock/Java com conversão)
             </p>
             <div class="btns">
               <a href="#">Ver projeto</a>
-              <a href="#">Ver código</a>
-              <a href="#">Ver Vídeo</a>
+              <a href="https://github.com/JaquelinePauxis/Parque-de-Divers-es-Geom-trico">Ver código</a>
             </div>
           </div>
                     <div class="projeto-card">
             <img
-              src="assets/imgs/card-project-2.png"
-              alt="Print do projeto 2"
+              src="assets/imgs/batalha.png"
+              alt="Print do projeto 8"
             />
-            <h3>Blog Pessoal</h3>
+            <h3>Batalha de Feitiços  - Desenvolvimneto Web (JS +CSS+HTML)</h3>
             <p>
-              Mockup responsivo criado como prática de estrutura HTML e
-              estilização com CSS.
+              Aplicação web (HTML/CSS/JS) que simula um duelo por “cartas/feitiços”, onde cliques disparam eventos, alteram o estado (vida/escudo/veneno) e re-renderizam a interface via DOM.
+
+O que o projeto ensina (pela documentação):
+
+Arquitetura orientada a eventos (listener de clique → ação → atualização de UI).
+
+Uso de arrays para baralho/mão/log e controle de turnos (base de jogos web).
+
+Regras explícitas na UI (escudo absorve antes, veneno drena no início do turno, inimigo revida), ajudando o aluno a ligar “regra” ↔ “variável no código”.
             </p>
             <div class="btns">
               <a href="#">Ver projeto</a>
-              <a href="#">Ver código</a>
-              <a href="#">Ver Vídeo</a>
+              <a href="https://github.com/JaquelinePauxis/Batalha-de-Feiti-os">Ver código</a>
             </div>
           </div>
 
           <div class="projeto-card">
             <img
-              src="assets/imgs/card-project-3.png"
-              alt="Print do projeto 3"
+              src="assets/imgs/bannerMEE2.png"
+              alt="Print do projeto 9"
             />
-            <h3>Loja Online</h3>
+            <h3>Arena de Mobs com Ondas Automáticas — Minecraft Education (MakeCode)</h3>
             <p>
-              Wireframe de loja virtual responsiva. Ideal para treinar grid,
-              responsividade e layout.
+              Sistema gamificado de “waves”: o jogo controla contador de ondas, pontuação, vidas/respawn, spawn progressivo e condições de vitória/derrota. O objetivo pedagógico é ensinar game loop, estado global e progressão de dificuldade.
+
+O que fica claro na engenharia do projeto:
+
+Estrutura de loop de jogo (checa estado → aplica regras → avança onda).
+
+Progressão matemática (multiplicadores/quantidade de spawn para “easy/hard mode”).
+
+Alinhamento BNCC explicitado (pensamento computacional, matemática aplicada, modelagem).
             </p>
             <div class="btns">
               <a href="#">Ver projeto</a>
-              <a href="#">Ver código</a>
-              <a href="#">Ver Vídeo</a>
+              <a href="https://github.com/JaquelinePauxis/-Arena-de-Mobs-com-Ondas-Autom-ticas">Ver código</a>
             </div>
           </div>
 
